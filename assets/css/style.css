@@ -21,8 +21,8 @@ body {
 
 .flipbook-viewport .container {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 25%;
+    left: 25%;
     margin: auto;
 }
 
@@ -55,7 +55,8 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    margin: 0;
+    height: auto;
+    max-width: 100%;
 }
 
 .flipbook-viewport .shadow {
@@ -68,8 +69,8 @@ body {
     box-shadow: 0 0 20px #ccc;
 }
 
-.flipbook-viewport .container .flipbook .Frontpage {
-    background-image: url("../../bilder/coverblatt_cocktail.jpg");
+.flipbook-viewport .container #flipbook .frontpage {
+    background-image: url("../bilder/coverblatt_cocktail.jpg");
     background-size: cover;
     background-position: center center;
 }
