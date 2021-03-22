@@ -75,7 +75,7 @@ var has3d,
 
     // Duration of transition in milliseconds
 
-    duration: 400,
+    duration: 600,
 
     // First page
 
@@ -98,7 +98,7 @@ var has3d,
 
     // Size of the active zone of each corner
 
-    cornerSize: 200
+    cornerSize: 100
 
   },
 
