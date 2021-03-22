@@ -75,3 +75,8 @@ body {
     background-position: center center;
 }
 
+.drinkname {
+	font-size: 35px;
+	font-style: italic;
+	margin: 2rem;
+}

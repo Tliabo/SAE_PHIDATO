@@ -29,7 +29,7 @@ for (let i = 0; i < 5; i++) {
             let drink = data.drinks[0];
             // console.log(drink);
 
-            const imageTemplate = `<img src="${drink.strDrinkThumb}" title="${drink.strDrink}">`;
+            const imageTemplate = `<img src="${drink.strDrinkThumb}" title="${drink.strDrink}"> <div class="drinkname"> ${drink.strDrink}</div>`;
             const container = document.createElement('div');
             container.classList.add('page');
 
